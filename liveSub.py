@@ -18,7 +18,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def alive():
     pos_code = {"200", "204", "301", "302", "308", "401,""403"}
-    neg_code = {"400", "404", "500", "502", "522", "530"}
+    #neg_code = {"400", "404", "500", "502", "522", "530"}
     proto = {'http://', 'https://'}
     useragent= [
         'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
