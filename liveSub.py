@@ -18,7 +18,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def alive():
     pos_code = {"200", "204", "301", "302", "308", "401,""403"}
-    neg_code = {"400", "404", "500", "502"}
+    neg_code = {"400", "404", "500", "502", "522", "530"}
     proto = {'http://', 'https://'}
     useragent= [
         'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
@@ -45,11 +45,12 @@ def alive():
                 comp = p + sub.rstrip()
                 req = requests.get(comp, proxies=proxies, verify=False, headers=u, allow_redirects=False)
                 resp = str(req.status_code)
+                print(Style.BRIGHT + Fore.GREEN + "Output saved in reportScan.txt" + Fore.RESET)
                 if resp in pos_code:
                     print(Style.BRIGHT + Fore.YELLOW + f"Possible candidate: [{resp}] {comp}".rstrip() + Fore.RESET)
                     # creo file e appendo result
                     output.write("[Possible candidate]: [%s] %s \n" %(str(resp),str(comp)))
-                elif resp in neg_code:
+                elif resp not in pos_code:
                     print(Style.BRIGHT + Fore.RED + f"[Nothing here] [{resp}] {comp}".rstrip() + Fore.RESET)
                     output.write("[Nothing here]: [%s] %s \n" %(str(resp),str(comp)))
                 else:
