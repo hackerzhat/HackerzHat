@@ -53,6 +53,7 @@ def alive():
 
 
     with open(args.wordlist, "r") as s:
+        print(Style.BRIGHT + Fore.GREEN + "Output saved in reportScan.txt" + Fore.RESET)
         for sub in s:
             for p in proto:
                 output = open('reportScan.txt', 'a')
@@ -62,7 +63,6 @@ def alive():
                 comp = p + sub.rstrip()
                 req = requests.get(comp, proxies=proxies, verify=False, headers=u, allow_redirects=False)
                 resp = str(req.status_code)
-                print(Style.BRIGHT + Fore.GREEN + "Output saved in reportScan.txt" + Fore.RESET)
                 if resp in pos_code:
                     print(Style.BRIGHT + Fore.YELLOW + f"Possible candidate: [{resp}] {comp}".rstrip() + Fore.RESET)
                     # creo file e appendo result
