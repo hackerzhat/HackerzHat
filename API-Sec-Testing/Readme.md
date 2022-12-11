@@ -17,5 +17,5 @@ arjun --headers "Content-Type: application/json]" -u https://target.com/api/regi
 
 ## Wordlists
   -  [Swagger](swagger.txt)
-  -  [Api docs path](API-Sec-Testing/Api_docs_path.txt)
-  -  [Http Procotol Methods](API-Sec-Testing/http-protocol-methods.txt)
+  -  [Api docs path](AApi_docs_path.txt)
+  -  [Http Procotol Methods](http-protocol-methods.txt)
