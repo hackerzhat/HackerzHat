@@ -13,3 +13,9 @@ Last update: **11 Dec 2022**
 ```
 arjun --headers "Content-Type: application/json]" -u https://target.com/api/register -m JSON --include='{$arjun$}'
 ```
+
+
+## Wordlists
+  -  [Swagger](API-Sec-Testing/Swagger.txt)
+  -  [Api docs path](API-Sec-Testing/Api_docs_path.txt)
+  -  [Http Procotol Methods](API-Sec-Testing/http-protocol-methods.txt)
