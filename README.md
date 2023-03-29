@@ -5,3 +5,7 @@
 |  _  | (_| | (__|   <  __/ |   / /|  _  | (_| | |_ / / 
 |_| |_|\__,_|\___|_|\_\___|_|  /___|_| |_|\__,_|\__/___|
 ```                                          
+
+## Offensive Security
+
+- Vulnerability [CrossSiteScripting](CrossSiteScripting/Readme.md)
