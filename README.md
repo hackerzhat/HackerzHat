@@ -9,3 +9,4 @@
 ## Offensive Security
 
 - Vulnerability [CrossSiteScripting](CrossSiteScripting/Readme.md)
+- Vulnerability [Open Redirect](Open_Redirect/Readme.md)
