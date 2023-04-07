@@ -7,4 +7,4 @@ HackerzHatz Open Redirect tools and payloads for fuzzing and exploitation.
 Portswigger: [portable-data-exfiltration](https://portswigger.net/research/portable-data-exfiltration)
 
 Pdf with redirect to evil.com:
-- [Payload](Open_Redirect/Payload_redirect.pdf)
+- [Payload](Payload_redirect.pdf)
