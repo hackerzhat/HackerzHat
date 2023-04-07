@@ -1,9 +1,5 @@
 ```
-██   ██ ███████ ███████ 
- ██ ██  ██      ██      
-  ███   ███████ ███████ 
- ██ ██       ██      ██ 
-██   ██ ███████ ███████ 
+OPEN REDIRECT
 ```                
 HackerzHatz Open Redirect tools and payloads for fuzzing and exploitation.
 
@@ -11,4 +7,4 @@ HackerzHatz Open Redirect tools and payloads for fuzzing and exploitation.
 Tool used: [JS2PDFInjector](https://github.com/cornerpirate/JS2PDFInjector)
 
 Pdf with redirect to evil.com:
-- [Payload with alert XSS](Upload_pdf_for_xss/Payload01.pdf)
+- [Payload](Open_Redirect/Payload01.pdf)
