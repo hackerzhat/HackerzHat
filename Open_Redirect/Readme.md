@@ -4,7 +4,7 @@ OPEN REDIRECT
 HackerzHatz Open Redirect tools and payloads for fuzzing and exploitation.
 
 ## Inject Redirect into a PDF file
-Tool used: [JS2PDFInjector](https://github.com/cornerpirate/JS2PDFInjector)
+Portswigger: [portable-data-exfiltration](https://portswigger.net/research/portable-data-exfiltration)
 
 Pdf with redirect to evil.com:
-- [Payload](Open_Redirect/Payload01.pdf)
+- [Payload](Open_Redirect/Payload_redirect.pdf)
